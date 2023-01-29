@@ -7,7 +7,7 @@
 /* TOPO */
 
 header {
-    background-image: url(/assets/pexels-lawrence-suzara-1581554.jpg);
+    background-image: url(/assets/imagem-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
@@ -45,13 +45,21 @@ header::before {
 }
 
 .topo ul li {
-    padding: 20px 40px 20px 0;
+    padding: 20px 0;
 }
 
 .topo li a {
+    padding: 3px 20px 3px 20px;
     text-decoration: none;
     font-size: 18px;
     color: #fff;
+}
+
+.topo li a:hover {
+    background-color: #fff;
+    border-radius: 25px;
+    color: #844e24;
+    transition: 0.3s;
 }
 
 /* CONTEÚDO */
@@ -108,7 +116,7 @@ main img {
 
 .container div {
     padding: 50px 15px 80px;
-    box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 10px #00000085;
     border-bottom: 3px solid  #844e24;
     border-radius: 20px;
     max-width: 260px;
@@ -135,7 +143,57 @@ main img {
 /* CONTATO */
 
 .secao-contato {
+    text-align: center;
+    background-color: #d1c0ae;
+}
 
+h2 {
+    margin: 20px  auto 40px;
+}
+
+h2 span {
+    border-bottom: 3px solid #844e24;
+}
+
+.secao-contato p {
+    font-size: 14px;
+}
+
+.secao-contato p span {
+    color: #844e24;
+}
+
+.secao-contato form {
+    padding-top: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+form input {
+    padding: 10px 0 10px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.mensagem {
+    padding-bottom: 60px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    background-color: #844e24;
+    color: #fff;
+    margin-bottom: 40px;
+    cursor: grab;
+}
+
+button:hover {
+    font-size: 15px;
 }
 
 /* FOOTER */
